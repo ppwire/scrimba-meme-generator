@@ -29,3 +29,7 @@ input[type="text"] {
   outline: none;
   border: none;
 }
+
+.bottom-layout {
+  margin-bottom: 2rem;
+}
