@@ -9,7 +9,7 @@ function App() {
   const [meme, setMeme] = useState({
     text1: '',
     text2: '',
-    memeImg: ''
+    memeImg: 'http://i.imgflip.com/1bij.jpg'
   })
 
   const [allMemes, setAllMemes] = useState(memeData.data.memes)

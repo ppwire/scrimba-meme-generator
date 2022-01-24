@@ -60,17 +60,33 @@ form>button {
   font-size: 16px;
 }
 
-.meme-img {
-  width: 100%;
-  max-height: auto;
+.meme-container {
+  position: relative;
+  height: 50%;
 }
 
-.meme-img>img {
-  object-fit: contain;
-  width: inherit;
-  height: inherit;
+.meme-container > img{
+  max-width: 100%;
+  display: block;
+  margin: auto;
+  height: 100%;
+  object-fit: cover;
 }
 
-.meme-img>img:hover {
-  filter: brightness(50%);
+.meme-text {
+  position: absolute;
+  color: white;
+  font-weight: bold;
+}
+
+.meme-text-top {
+  top: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.meme-text-bottom {
+  bottom: 10%;
+  left: 50%;
+  transform: translate(-50%, -50%);
 }
